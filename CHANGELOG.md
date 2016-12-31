@@ -2,6 +2,6 @@
 
 Recursos:
 
-  - Busca de pacotes do aur e de repositórios
+  - Busca de pacotes do AUR e de repositórios do instalados no pacman
   - Verificador de atualizações
   - Instalação/Atualização/Remoção de pacotes
