@@ -266,7 +266,7 @@ function ver_atualizacoes(){
 
 var tray = new nw.Tray({
 	title: 'Pacaum',
-	icon: 'images/down-icon.png',
+	icon: 'images/icon.png',
 	tooltip: 'Abrir e verificar atualizações'
 });
 var win = nw.Window.get();

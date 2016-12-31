@@ -6,7 +6,8 @@
   "window": {
     "toolbar": false,
     "width": 1000,
-    "height": 600
+    "height": 600,
+    "icon": "images/icon.png"
   },
   "scripts": {
     "start": "nw ."
