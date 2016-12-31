@@ -46,6 +46,12 @@ function buscarPack(pack){
 	var dados = new Array();
 	if(pack=="Atualizações"){
 		getAtualizacoes(function(atts){
+			if(atts.length>0){
+				$(".atualizacoes_disponiveis").html(String(atts.length)+" Atualizações Disponíveis");
+				$(".atualizacoes_disponiveis").css("opacity","1.0");
+			}else{
+				$(".atualizacoes_disponiveis").css("opacity","0.0");
+			}
 			buscarPack(atts);
 		});
 		return true;
