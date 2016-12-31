@@ -1,0 +1,87 @@
+.textbox_meio{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 50%;
+	display: block;
+	transition: all 1s;
+	opacity: 0.0;
+}
+.textbox_cima{
+	width: 99%;
+    top: 5px;
+    position: fixed;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+.textbox_cima_hide{
+    top: -50px;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+.registros{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	opacity: 0.0;
+	transition: all 1s;
+}
+
+.registros_atualizar{
+	top: 100px;
+}
+
+.atualizar_todos{
+	position: fixed;
+	top: 50px;
+	left: 50%;
+	width: 99%;
+	opacity: 0.0;
+	transform: translateX(-50%);
+	transition: all 1s;
+}
+
+.atualizacoes_disponiveis{
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	opacity: 0.0;
+	transition: all 1s;
+}
+
+.atualizacoes_disponiveis_hide{
+	top: -37px;
+}
+
+.sem_registros{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	opacity: 0.0;
+	text-align: center;
+	transition: all 1s;
+}
+.imagem_aur{
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0.0;
+	transition: all 1s;
+}
+.imagem_aur_hide{
+	transform: translateX(-50%) translateY(-100%);
+}
+.loading_svg{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	opacity: 1.0;
+	transition: all 1s;
+}
+.desinstalar_btn{
+	position: absolute;
+    right: 16px;
+}

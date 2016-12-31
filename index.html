@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pacaum</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="row" id="row_modelo" style="display: none;">
+		
+	</div>
+	<div class="col-md-4" id="sm_modelo" style="display: none;">
+      <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=SEM IMAGEM" class="img-responsive" style="width:100%" alt="Sem Imagem"></div>
+        <div class="panel-footer" style="position: relative">
+        	<a href="javascript:void(0);" onclick="instalar('')" class="btn btn-success instalar_btn" style="display: none;">Instalar</a>
+        	<a href="javascript:void(0);" onclick="reinstalar('')" class="btn btn-primary reinstalar_btn" style="display: none;">Reinstalar</a>
+        	<a href="javascript:void(0);" onclick="desinstalar('')" class="btn btn-danger desinstalar_btn"  style="display: none;"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </div>
+    <img class="imagem_aur" src="images/pacaum-logo.png">
+    <img class="loading_svg" src="images/loading.svg">
+	<input type="text" class="form-control textbox_meio" placeholder="Pesquise qualquer programa" id="busca">
+	<button type="button" class="btn btn-primary atualizar_todos" onclick="atualizar_todos()">Atualizar Todos</button>
+	<button type="button" class="btn btn-primary atualizacoes_disponiveis" onclick="ver_atualizacoes()">X Atualizações Disponíveis</button>
+	<div class="container registros">
+	</div>
+	<div class="sem_registros">
+		<h1>Não existe registros</h1>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
